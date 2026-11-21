@@ -1,0 +1,37 @@
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# IDE / sistema operativo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Herramientas locales (no forman parte del proyecto)
+exportar_a_word.py
+Codigo_Proyecto.docx
+*.docx
+
+# Imágenes subidas desde el panel admin (se conserva la carpeta con .gitkeep)
+app/static/uploads/*
+!app/static/uploads/.gitkeep
+
+# Andamiaje de generación (ya aplicado; pisaría archivos del proyecto)
+apply_block*.py
+generate_project.py
+patches_shop.zip
